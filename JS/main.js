@@ -24,6 +24,11 @@
 
 // BONUS 3:
 // Aggiungere bottoni di start / stop e di inversione del meccanismo di autoplay.
+const slidesContainerEl = document.querySelector(".thumbnails");
+const buttonNextEl = document.querySelector(".arrow-next");
+const buttonPrevEl = document.querySelector(".arrow-back");
+
+
 
 const images = [
     {
@@ -50,9 +55,14 @@ const images = [
 ];
 
 
+const selezioneDiProva = images.forEach(() => {
 
-images.forEach(() => {
-    console.log(images.image);
-    console.log(images.title);
-    console.log(images.text);
-});
+    return images;
+
+})
+console.log(images.image)
+
+
+
+
+
